@@ -53,7 +53,7 @@ pluginkit -mDvvv -p com.apple.calendar.virtualconference
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+This project is licensed under the [GNU General Public License v2.0](LICENSE).
 
 ### Third-party
 
