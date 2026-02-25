@@ -6,14 +6,100 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBE998A82F2A102200C79ED8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE998A72F2A102200C79ED8 /* EventKit.framework */; };
+		BBE998B82F2A15EA00C79ED8 /* AppGroupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE998B72F2A15EA00C79ED8 /* AppGroupSettings.swift */; };
+		BBE998B92F2A165300C79ED8 /* AppGroupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE998B72F2A15EA00C79ED8 /* AppGroupSettings.swift */; };
+		BBE998E82F2A4D9100C79ED8 /* CalendarFreedomExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BBE998A52F2A102200C79ED8 /* CalendarFreedomExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BBE998F12F2A600100C79ED8 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE998F02F2A600000C79ED8 /* RoomType.swift */; };
+		BBE998F22F2A600200C79ED8 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE998F02F2A600000C79ED8 /* RoomType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBE998DC2F2A418D00C79ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE998872F2A0C8900C79ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE998A42F2A102200C79ED8;
+			remoteInfo = CalendarFreedomExtension;
+		};
+		BBE998E12F2A4D1800C79ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE998872F2A0C8900C79ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE998A42F2A102200C79ED8;
+			remoteInfo = CalendarFreedomExtension;
+		};
+		BBE998E52F2A4D8300C79ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE998872F2A0C8900C79ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE998A42F2A102200C79ED8;
+			remoteInfo = CalendarFreedomExtension;
+		};
+		BBE998E92F2A4D9100C79ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE998872F2A0C8900C79ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE998A42F2A102200C79ED8;
+			remoteInfo = CalendarFreedomExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE998EB2F2A4D9100C79ED8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BBE998E82F2A4D9100C79ED8 /* CalendarFreedomExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BBE9988F2F2A0C8900C79ED8 /* Calendar Freedom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calendar Freedom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE998A52F2A102200C79ED8 /* CalendarFreedomExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalendarFreedomExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE998A72F2A102200C79ED8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		BBE998B72F2A15EA00C79ED8 /* AppGroupSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupSettings.swift; sourceTree = "<group>"; };
+		BBE998F02F2A600000C79ED8 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BBE998B02F2A102200C79ED8 /* Exceptions for "CalendarFreedomExtension" folder in "CalendarFreedomExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+		};
+		BBE998BB2F2A1BB400C79ED8 /* Exceptions for "Calendar Freedom" folder in "CalendarFreedomExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppSettings.swift,
+			);
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BBE998912F2A0C8900C79ED8 /* Calendar Freedom */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BBE998BB2F2A1BB400C79ED8 /* Exceptions for "Calendar Freedom" folder in "CalendarFreedomExtension" target */,
+			);
 			path = "Calendar Freedom";
+			sourceTree = "<group>";
+		};
+		BBE998A92F2A102200C79ED8 /* CalendarFreedomExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BBE998B02F2A102200C79ED8 /* Exceptions for "CalendarFreedomExtension" folder in "CalendarFreedomExtension" target */,
+			);
+			path = CalendarFreedomExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +112,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBE998A22F2A102200C79ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE998A82F2A102200C79ED8 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BBE998862F2A0C8900C79ED8 = {
 			isa = PBXGroup;
 			children = (
+				BBE998B62F2A15BD00C79ED8 /* Shared */,
 				BBE998912F2A0C8900C79ED8 /* Calendar Freedom */,
+				BBE998A92F2A102200C79ED8 /* CalendarFreedomExtension */,
+				BBE998A62F2A102200C79ED8 /* Frameworks */,
 				BBE998902F2A0C8900C79ED8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +138,26 @@
 			isa = PBXGroup;
 			children = (
 				BBE9988F2F2A0C8900C79ED8 /* Calendar Freedom.app */,
+				BBE998A52F2A102200C79ED8 /* CalendarFreedomExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE998A62F2A102200C79ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE998A72F2A102200C79ED8 /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE998B62F2A15BD00C79ED8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BBE998B72F2A15EA00C79ED8 /* AppGroupSettings.swift */,
+				BBE998F02F2A600000C79ED8 /* RoomType.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,10 +170,15 @@
 				BBE9988B2F2A0C8900C79ED8 /* Sources */,
 				BBE9988C2F2A0C8900C79ED8 /* Frameworks */,
 				BBE9988D2F2A0C8900C79ED8 /* Resources */,
+				BBE998EB2F2A4D9100C79ED8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BBE998DD2F2A418D00C79ED8 /* PBXTargetDependency */,
+				BBE998E22F2A4D1800C79ED8 /* PBXTargetDependency */,
+				BBE998E62F2A4D8300C79ED8 /* PBXTargetDependency */,
+				BBE998EA2F2A4D9100C79ED8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				BBE998912F2A0C8900C79ED8 /* Calendar Freedom */,
@@ -69,6 +189,28 @@
 			productName = "Calendar Freedom";
 			productReference = BBE9988F2F2A0C8900C79ED8 /* Calendar Freedom.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE998B12F2A102200C79ED8 /* Build configuration list for PBXNativeTarget "CalendarFreedomExtension" */;
+			buildPhases = (
+				BBE998A12F2A102200C79ED8 /* Sources */,
+				BBE998A22F2A102200C79ED8 /* Frameworks */,
+				BBE998A32F2A102200C79ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BBE998A92F2A102200C79ED8 /* CalendarFreedomExtension */,
+			);
+			name = CalendarFreedomExtension;
+			packageProductDependencies = (
+			);
+			productName = CalendarFreedomExtension;
+			productReference = BBE998A52F2A102200C79ED8 /* CalendarFreedomExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +223,9 @@
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					BBE9988E2F2A0C8900C79ED8 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BBE998A42F2A102200C79ED8 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
@@ -100,12 +245,20 @@
 			projectRoot = "";
 			targets = (
 				BBE9988E2F2A0C8900C79ED8 /* Calendar Freedom */,
+				BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BBE9988D2F2A0C8900C79ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE998A32F2A102200C79ED8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,10 +272,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE998B82F2A15EA00C79ED8 /* AppGroupSettings.swift in Sources */,
+				BBE998F12F2A600100C79ED8 /* RoomType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE998A12F2A102200C79ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE998B92F2A165300C79ED8 /* AppGroupSettings.swift in Sources */,
+				BBE998F22F2A600200C79ED8 /* RoomType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE998DD2F2A418D00C79ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+			targetProxy = BBE998DC2F2A418D00C79ED8 /* PBXContainerItemProxy */;
+		};
+		BBE998E22F2A4D1800C79ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+			targetProxy = BBE998E12F2A4D1800C79ED8 /* PBXContainerItemProxy */;
+		};
+		BBE998E62F2A4D8300C79ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+			targetProxy = BBE998E52F2A4D8300C79ED8 /* PBXContainerItemProxy */;
+		};
+		BBE998EA2F2A4D9100C79ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE998A42F2A102200C79ED8 /* CalendarFreedomExtension */;
+			targetProxy = BBE998E92F2A4D9100C79ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BBE998982F2A0C8B00C79ED8 /* Debug */ = {
@@ -178,7 +365,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -235,7 +422,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -248,20 +435,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Calendar Freedom/Calendar Freedom.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development: mechko@haltetdenbeat.de (TKF3C9M57L)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WRQFL2S3;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Freedom";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.swillus.Calendar-Freedom";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.swillus.CalendarFreedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -278,25 +479,143 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Calendar Freedom/Calendar Freedom.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development: mechko@haltetdenbeat.de (TKF3C9M57L)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WRQFL2S3;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Freedom";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.swillus.Calendar-Freedom";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.swillus.CalendarFreedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BBE998B22F2A102200C79ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = CalendarFreedomExtension/CalendarFreedomExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: mechko@haltetdenbeat.de (TKF3C9M57L)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WRQFL2S3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarFreedomExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarFreedomExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.swillus.CalendarFreedom.CalendarFreedomExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBE998B32F2A102200C79ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = CalendarFreedomExtension/CalendarFreedomExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: mechko@haltetdenbeat.de (TKF3C9M57L)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WRQFL2S3;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarFreedomExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarFreedomExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.swillus.CalendarFreedom.CalendarFreedomExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,6 +639,15 @@
 			buildConfigurations = (
 				BBE9989B2F2A0C8B00C79ED8 /* Debug */,
 				BBE9989C2F2A0C8B00C79ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE998B12F2A102200C79ED8 /* Build configuration list for PBXNativeTarget "CalendarFreedomExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE998B22F2A102200C79ED8 /* Debug */,
+				BBE998B32F2A102200C79ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
