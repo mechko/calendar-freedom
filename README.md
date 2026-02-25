@@ -12,6 +12,10 @@ Calendar Freedom installs a Calendar extension that lets you create events with 
 
 When you create a new event in Calendar and click the video call dropdown, your configured room types appear as options next to FaceTime. Selecting one automatically generates and attaches a conference link to the event.
 
+<p align="center">
+  <img src="docs/screenshots/calendar-integration.png" width="720" alt="Calendar Freedom room types in Apple Calendar's video call picker">
+</p>
+
 ## Features
 
 - **Multiple room types** — configure up to 5 different video conferencing providers
@@ -50,6 +54,13 @@ pluginkit -mDvvv -p com.apple.calendar.virtualconference
 2. Add a room type with a name and base URL (e.g. `https://meet.jit.si`)
 3. Enable "Add Random Room ID" if you want a unique link per event
 4. Open Apple Calendar, create a new event, and select your room type from the video call dropdown
+
+<p align="center">
+  <img src="docs/screenshots/main-window.png" width="720" alt="Calendar Freedom main window">
+</p>
+<p align="center">
+  <img src="docs/screenshots/preferences.png" width="720" alt="Calendar Freedom preferences">
+</p>
 
 ## License
 
